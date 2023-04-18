@@ -33,8 +33,6 @@ public class ArmStringNumber {
         }
         if(sum==i){
             System.out.print(i+" ");
-        }else{
-
         }
     }
 
