@@ -19,7 +19,9 @@ public class CalculatewithIf {
         }else if(operator=='*'){
             System.out.println("the mul : "+(num1*num2));
         }else if(operator=='/'){
-            System.out.println("the div : "+(num1/num2));
+            if(num2!=0) {
+                System.out.println("the div : " + (num1 / num2));
+            }
         }else{
             System.out.println("Please Enter Valid Operator");
         }
